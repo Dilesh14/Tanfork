@@ -17,5 +17,25 @@ namespace Filters.Models.Logic
         {
             return theme.Orientation == "Port";
         }
+        public bool IsNum1(Theme theme)
+        {
+            return theme.NumOfPhotos == 1;
+        }
+        public bool IsNum2(Theme theme)
+        {
+            return theme.NumOfPhotos == 2;
+        }
+        public bool IsNum3(Theme theme)
+        {
+            return theme.NumOfPhotos == 3;
+        }
+        public bool IsNum4plus(Theme theme)
+        {
+            return theme.NumOfPhotos >= 4;
+        }
+        public bool IsRed(Theme theme)
+        {
+            return theme.Color == "Red";
+        }
     }
 }

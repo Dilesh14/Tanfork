@@ -18,8 +18,8 @@ namespace Filters
                 Console.WriteLine($"{t.Color} --- {t.NumOfPhotos} --- {t.Orientation} ");
             }
             Console.ReadLine();
-            Console.WriteLine("Filtering for landscape Or Port");
-            foreach(Theme t in product.Where(x=>Logic.IsLand(x) ||Logic.IsPort(x)))
+            Console.WriteLine("Filtering for landscape Or Port And Num photos =3 and color = Red");
+            foreach(Theme t in product.Where(x=>(Logic.IsLand(x) ||Logic.IsPort(x))&&(Logic.IsNum3(x))&&(Logic.IsRed(x))))
             {
                 Console.WriteLine($"{t.Color} --- {t.NumOfPhotos} --- {t.Orientation} ");
             }
