@@ -1,12 +1,15 @@
-﻿using System;
-using NAudio;
+﻿using SoundClass;
+using System;
 namespace Sound
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();
+            Console.WriteLine("Please Enter The key");
+            int _key = int.Parse(Console.ReadLine());
+            Beep beep = new Beep();
+            beep.Start(_key);
         }
     }
 }

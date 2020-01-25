@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sound", "Sound\Sound.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundClass", "SoundClass\SoundClass.csproj", "{5940E38C-814F-4D8F-AC13-5135CE063818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filters", "Filters\Filters.csproj", "{BEC4EA44-FD16-435E-BC23-D3C9A9667518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filters", "Filters\Filters.csproj", "{BEC4EA44-FD16-435E-BC23-D3C9A9667518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task", "Task\Task.csproj", "{0FA8E660-B149-45FA-8B41-8C01790BD462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{048123FD-626D-4D1D-A5DD-21FD84FCE65E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{BEC4EA44-FD16-435E-BC23-D3C9A9667518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC4EA44-FD16-435E-BC23-D3C9A9667518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC4EA44-FD16-435E-BC23-D3C9A9667518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA8E660-B149-45FA-8B41-8C01790BD462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA8E660-B149-45FA-8B41-8C01790BD462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA8E660-B149-45FA-8B41-8C01790BD462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA8E660-B149-45FA-8B41-8C01790BD462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048123FD-626D-4D1D-A5DD-21FD84FCE65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048123FD-626D-4D1D-A5DD-21FD84FCE65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048123FD-626D-4D1D-A5DD-21FD84FCE65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048123FD-626D-4D1D-A5DD-21FD84FCE65E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
